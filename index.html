@@ -1,0 +1,411 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sheetal Jain's developer portfolio">
+  <title>Sheetal Jain | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+  <div class="background-glow glow-one"></div>
+  <div class="background-glow glow-two"></div>
+
+  <!-- NAVIGATION -->
+  <header class="navbar">
+    <a href="#home" class="logo">SJ<span>.</span></a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+      <i data-lucide="menu"></i>
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certificates</a>
+      <a href="#contact" class="nav-contact">Let's Connect ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero section" id="home">
+      <div class="hero-content reveal">
+        <div class="availability">
+          <span class="status-dot"></span>
+          B.TECH CSE STUDENT · 2023–2027
+        </div>
+
+        <p class="eyebrow">HELLO, WORLD! I'M</p>
+        <h1>Sheetal <span class="gradient-text">Jain.</span></h1>
+
+        <h2>I build things with <span id="typingText">Python</span><span class="cursor">|</span></h2>
+
+        <p class="hero-description">
+          A Computer Science Engineering student passionate about
+          Python, Salesforce, Machine Learning and Cloud Computing.
+          I enjoy learning new technologies and turning ideas into
+          practical solutions.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            Explore My Work <i data-lucide="arrow-up-right"></i>
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            Contact Me <i data-lucide="mail"></i>
+          </a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://github.com/Sheetal-code23" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <i data-lucide="github"></i>
+          </a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <i data-lucide="linkedin"></i>
+          </a>
+          <a href="mailto:jsheetal756@gmail.com" aria-label="Email">
+            <i data-lucide="mail"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- YOUR PHOTO -->
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+
+        <div class="photo-frame">
+          <img
+            src="images/Casual Photo.jpeg"
+            alt="Sheetal Jain"
+            class="profile-photo"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+          >
+
+          <div class="photo-placeholder">
+            <i data-lucide="user-round"></i>
+            <span>Photo not found</span>
+            <small>Check images/Casual Photo.jpeg</small>
+          </div>
+        </div>
+
+        <div class="floating-card card-python">
+          <i data-lucide="code-2"></i>
+          <div>
+            <strong>Python</strong>
+            <small>Programming</small>
+          </div>
+        </div>
+
+        <div class="floating-card card-cloud">
+          <i data-lucide="cloud"></i>
+          <div>
+            <strong>Cloud & AWS</strong>
+            <small>Project Experience</small>
+          </div>
+        </div>
+
+        <div class="photo-caption">
+          <span class="caption-line"></span>
+          LEARN · BUILD · IMPROVE
+        </div>
+      </div>
+    </section>
+
+    <!-- QUICK INFO -->
+    <section class="quick-info section reveal">
+      <div class="info-item">
+        <i data-lucide="graduation-cap"></i>
+        <div><strong>B.Tech CSE</strong><span>2023–2027</span></div>
+      </div>
+
+      <div class="info-item">
+        <i data-lucide="map-pin"></i>
+        <div><strong>Jaipur</strong><span>Rajasthan, India</span></div>
+      </div>
+
+      <div class="info-item">
+        <i data-lucide="target"></i>
+        <div><strong>Career Focus</strong><span>Software & Cloud Technologies</span></div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section content-section" id="about">
+      <div class="section-heading reveal">
+        <span class="section-tag">01 / ABOUT ME</span>
+        <h2>A little about <span class="gradient-text">my journey.</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text glass-card reveal">
+          <p>
+            I'm a Computer Science Engineering student at
+            <strong>Anand International College of Engineering, Jaipur.</strong>
+          </p>
+          <p>
+            My technical interests include programming, database
+            management, Salesforce Administration, Machine Learning,
+            Linux and cloud technologies.
+          </p>
+          <p>
+            Through hands-on projects and training, I am working to
+            strengthen my technical foundation, problem-solving
+            abilities and understanding of real-world applications.
+          </p>
+          <a href="#contact" class="text-link">Let's connect <span>↗</span></a>
+        </div>
+
+        <div class="education-card glass-card reveal">
+          <span class="mini-label">MY EDUCATION</span>
+          <div class="timeline-dot"></div>
+          <h3>B.Tech in Computer Science Engineering</h3>
+          <p>Anand International College of Engineering</p>
+          <p>Jaipur, Rajasthan</p>
+
+          <div class="education-bottom">
+            <span>2023–2027</span>
+            <span class="grade">CGPA: 9.54</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section content-section" id="skills">
+      <div class="section-heading reveal">
+        <span class="section-tag">02 / TECH STACK</span>
+        <h2>Tools I use to <span class="gradient-text">create.</span></h2>
+        <p>My technical skills and areas of learning.</p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card glass-card reveal">
+          <div class="skill-icon purple"><i data-lucide="code-2"></i></div>
+          <h3>Programming</h3>
+          <div class="skill-tags">
+            <span>C</span><span>C++</span><span>Python</span>
+            <span>OOP Concepts</span>
+          </div>
+        </article>
+
+        <article class="skill-card glass-card reveal">
+          <div class="skill-icon cyan"><i data-lucide="database"></i></div>
+          <h3>Database</h3>
+          <div class="skill-tags">
+            <span>MySQL</span><span>SQL Queries</span>
+            <span>Database Concepts</span>
+          </div>
+        </article>
+
+        <article class="skill-card glass-card reveal">
+          <div class="skill-icon green"><i data-lucide="workflow"></i></div>
+          <h3>Salesforce</h3>
+          <div class="skill-tags">
+            <span>Admin</span><span>Custom Objects</span>
+            <span>Flow Builder</span><span>Reports</span>
+          </div>
+        </article>
+
+        <article class="skill-card glass-card reveal">
+          <div class="skill-icon pink"><i data-lucide="brain-circuit"></i></div>
+          <h3>Machine Learning</h3>
+          <div class="skill-tags">
+            <span>Python</span><span>Data Preprocessing</span>
+            <span>Model Training</span>
+          </div>
+        </article>
+
+        <article class="skill-card glass-card reveal">
+          <div class="skill-icon orange"><i data-lucide="terminal"></i></div>
+          <h3>Systems & Cloud</h3>
+          <div class="skill-tags">
+            <span>Linux</span><span>Bash</span>
+            <span>AWS Project</span><span>Cloud Computing</span>
+          </div>
+        </article>
+
+        <article class="skill-card glass-card reveal">
+          <div class="skill-icon blue"><i data-lucide="users"></i></div>
+          <h3>Professional Skills</h3>
+          <div class="skill-tags">
+            <span>Teamwork</span><span>Leadership</span>
+            <span>Problem Solving</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section content-section" id="projects">
+      <div class="section-heading reveal">
+        <span class="section-tag">03 / SELECTED WORK</span>
+        <h2>Projects I've <span class="gradient-text">worked on.</span></h2>
+        <p>Practical applications of my technical learning.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card glass-card reveal">
+          <div class="project-top">
+            <div class="project-symbol purple"><i data-lucide="messages-square"></i></div>
+            <span class="project-number">PROJECT 01</span>
+          </div>
+          <h3>Salesforce Complaint & Resolution Tracker</h3>
+          <p>
+            A Salesforce-based application designed to organize
+            complaint records and support structured tracking of
+            complaint resolution using custom objects and automation.
+          </p>
+          <div class="project-tags">
+            <span>Salesforce</span><span>Admin</span><span>Flow Builder</span>
+          </div>
+          <a class="project-link" href="https://github.com/Sheetal-code23" target="_blank" rel="noopener noreferrer">
+            View Project <i data-lucide="arrow-up-right"></i>
+          </a>
+        </article>
+
+        <article class="project-card glass-card reveal">
+          <div class="project-top">
+            <div class="project-symbol cyan"><i data-lucide="shield-check"></i></div>
+            <span class="project-number">PROJECT 02</span>
+          </div>
+          <h3>Financial Fraud Detection System</h3>
+          <p>
+            A machine learning project to identify potentially
+            fraudulent financial transactions, with an AWS deployment
+            component for serving predictions.
+          </p>
+          <div class="project-tags">
+            <span>Python</span><span>Machine Learning</span><span>AWS</span>
+          </div>
+          <a class="project-link" href="https://github.com/Sheetal-code23" target="_blank" rel="noopener noreferrer">
+            View Project <i data-lucide="arrow-up-right"></i>
+          </a>
+        </article>
+
+        <article class="project-card glass-card reveal">
+          <div class="project-top">
+            <div class="project-symbol pink"><i data-lucide="activity"></i></div>
+            <span class="project-number">PROJECT 03</span>
+          </div>
+          <h3>Blood Pressure Prediction Using ML</h3>
+          <p>
+            An AI/ML project focused on analyzing data and building
+            a predictive model through preprocessing and machine
+            learning techniques.
+          </p>
+          <div class="project-tags">
+            <span>Python</span><span>AI/ML</span><span>Data Analysis</span>
+          </div>
+          <a class="project-link" href="https://github.com/Sheetal-code23" target="_blank" rel="noopener noreferrer">
+            View Project <i data-lucide="arrow-up-right"></i>
+          </a>
+        </article>
+      </div>
+
+      <p class="section-note">
+        Update each project link with its actual GitHub repository URL.
+      </p>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="section content-section" id="certifications">
+      <div class="section-heading reveal">
+        <span class="section-tag">04 / CERTIFICATIONS & ACHIEVEMENTS</span>
+        <h2>Learning never <span class="gradient-text">stops.</span></h2>
+      </div>
+
+      <div class="cert-list">
+        <div class="cert-item glass-card reveal">
+          <div class="cert-icon"><i data-lucide="brain"></i></div>
+          <div>
+            <h3>AI/ML Training Certificate</h3>
+            <p>Practical training in Artificial Intelligence and Machine Learning.</p>
+          </div>
+        </div>
+
+        <div class="cert-item glass-card reveal">
+          <div class="cert-icon"><i data-lucide="terminal"></i></div>
+          <div>
+            <h3>Linux Practical Training</h3>
+            <p>Linux fundamentals and command-line practice.</p>
+          </div>
+        </div>
+
+        <div class="cert-item glass-card reveal">
+          <div class="cert-icon"><i data-lucide="cloud"></i></div>
+          <div>
+            <h3>NPTEL Cloud Computing</h3>
+            <p>Cloud computing course and certification.</p>
+          </div>
+        </div>
+
+        <div class="cert-item glass-card reveal">
+          <div class="cert-icon"><i data-lucide="git-branch"></i></div>
+          <div>
+            <h3>IIT Bombay Bash Training</h3>
+            <p>Training in Bash and command-line fundamentals.</p>
+          </div>
+        </div>
+
+        <div class="cert-item glass-card reveal">
+          <div class="cert-icon"><i data-lucide="trophy"></i></div>
+          <div>
+            <h3>Bot Brew Tech Event — Runner-Up</h3>
+            <p>Technical event achievement at the college fest.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="contact-card reveal">
+        <span class="section-tag">05 / GET IN TOUCH</span>
+        <h2>Have an opportunity?<br><span class="gradient-text">Let's talk.</span></h2>
+
+        <p>
+          I'm interested in internships, learning opportunities,
+          technical collaborations and software development projects.
+        </p>
+
+        <a href="mailto:jsheetal756@gmail.com" class="btn btn-primary">
+          Say Hello <i data-lucide="arrow-up-right"></i>
+        </a>
+
+        <div class="contact-details">
+          <a href="mailto:jsheetal756@gmail.com">
+            <i data-lucide="mail"></i> jsheetal756@gmail.com
+          </a>
+          <a href="tel:+919799808142">
+            <i data-lucide="phone"></i> +91 9799808142
+          </a>
+          <span><i data-lucide="map-pin"></i> Jaipur, Rajasthan, India</span>
+        </div>
+
+        <div class="contact-socials">
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a href="https://github.com/Sheetal-code23" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#home" class="logo">SJ<span>.</span></a>
+    <p>Designed & built with care by Sheetal Jain.</p>
+    <a href="#home" class="back-top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
